@@ -1,0 +1,120 @@
+<!DOCTYPE html> 
+
+<html lang="en"> 
+
+<head> 
+<meta charset="UTF-8"> 
+<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<title>Document</title> 
+<link rel="stylesheet" href="assets/style.css"> 
+<link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600&display=swap" rel="stylesheet"> 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" /> 
+</head> 
+<body> 
+    <div class="container"> 
+        <header> 
+            <div class="header"> 
+                <a href="index.html" class="logo"> 
+                    <img src="assets/img/logo.png" alt="logo">  
+                </a> 
+                <nav>
+                    <div class="nav">
+                        <a href="#">Главная</a> 
+                        <a href="index2.html">Автопарк</a> 
+                        <a href="#">Спецпредложения</a> 
+                    </div>
+                </nav>
+                <div class="block-vert-line">
+                    <h3>+7(956)131-12-43</h3>
+                    <h3>г. Казань, ул.Ульянова д.97</h3>
+                </div>
+            </header> 
+            <main> 
+                <div class="banner"> 
+                    <img src="assets/img/banner.png" alt="banner"> 
+                    <div class="banner-content"> 
+                        <h1>ЭЛИТНЫЙ И КОМФОРТНЫЙ КАРШЕРИНГ В КАЗАНИ</h1> 
+                        <a href="#"><button>Оставить заявку</button></a> 
+                        <i class="fa-solid fa-chervon-down"></i> 
+                    </div> 
+                </div> 
+                <div class="plus">
+                    <h2>НАШИ ПРЕИМУЩЕСТВА</h2>
+                    <div class="pluss">
+                        <div class="tell">
+                            <img src="assets/img/tel1.png" alt="tell">
+                            <div class="tell-content">
+                                <h3>Разнообразный ассортимент авто без надписей</h3>
+                            </div>
+                        </div>
+                        <div class="tell">
+                            <img src="assets/img/tel2.png" alt="tell">
+                            <div class="tell-content">
+                                <h3>На улицах города с доступом со смартфона</h3>
+                            </div>
+                        </div>
+                        <div class="tell">
+                            <img src="assets/img/tel3.png" alt="tell">
+                            <div class="tell-content">
+                                <h3>Поминутные, часовые и суточные тарифы</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="scheme">
+                    <img src="assets/img/scheme.png" alt="scheme">
+                </div>  
+                <footer> 
+                    <div class="footer"> 
+                        <a href="index.html" class="logo"> 
+                            <img src="assets/img/logo.png" alt="logo"> 
+                        </a> 
+                        <div class="footer-nav"> 
+                            <h3>Пользователю</h3> 
+                            <a href="#">Каршеринг</a> 
+                            <a href="#">Срочная доставка</a> 
+                            <a href="#">Страховой депозит</a>  
+                        </div> 
+                        <div class="footer-nav"> 
+                            <h3>Владельцу авто</h3> 
+                            <a href="#">Личный кабинет</a> 
+                            <a href="#">Подключить авто</a> 
+                            <a href="#">Авто как инвестиция</a> 
+                        </div> 
+                        <div class="footer-nav"> 
+                            <div id="openModal" class="modal">
+                                <div class="modal-dialog">
+                                  <div class="modal-content">
+                                    <div class="modal-header">
+                                      <h3 class="modal-title"></h3>
+                                      <a href="#close" title="Close" class="close">×</a>
+                                    </div>
+                                    <div class="modal-body">    
+                                      <ul>
+                                        <form class="obratnuj-zvonok" autocomplete="off" action='email.php' method='post'>
+                                            <div class="form-zvonok"> 
+                                              <div>
+                                                <label>Имя <span>*</span></label>
+                                                <input type='text' name='username' required></div>
+                                              <div>
+                                                <label>Номер телефона (с кодом) <span>*</span></label>
+                                                <input type='text' name='usernumber' required></div>
+                                              <div>
+                                                <label>Сообщение</label>
+                                                <input type='text' name='question'>
+                                              </div>
+                                              <input class="bot-send-mail" type='submit' value='Послать заявку'>
+                                            </div>
+                                            </form>
+                                      </ul>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>  
+                              <a href="#openModal"><button>Поддержка</button></a></h3> 
+                        </div> 
+                    </div> 
+                </footer>
